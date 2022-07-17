@@ -5,6 +5,7 @@ export function vStringMinLength(...args) {
 }
 
 export {
+  vStringMinLength as minLength,
   vStringMinLength as stringMinLength,
   vStringMinLength as validatableStringMinLength,
 };

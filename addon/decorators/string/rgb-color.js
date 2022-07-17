@@ -5,6 +5,7 @@ export function vStringRGBColor(...args) {
 }
 
 export {
+  vStringRGBColor as rgbColor,
   vStringRGBColor as stringRGBColor,
   vStringRGBColor as validatableStringRGBColor,
 };

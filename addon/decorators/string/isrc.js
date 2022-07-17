@@ -4,4 +4,8 @@ export function vStringISRC(...args) {
   return IsISRC(...args);
 }
 
-export { vStringISRC as stringISRC, vStringISRC as validatableStringISRC };
+export {
+  vStringISRC as isrc,
+  vStringISRC as stringISRC,
+  vStringISRC as validatableStringISRC,
+};

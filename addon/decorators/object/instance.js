@@ -5,6 +5,7 @@ export function vObjectInstance(...args) {
 }
 
 export {
+  vObjectInstance as instance,
   vObjectInstance as objectInstance,
   vObjectInstance as validatableObjectInstance,
 };

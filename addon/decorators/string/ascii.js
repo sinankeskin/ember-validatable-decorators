@@ -4,4 +4,8 @@ export function vStringAscii(...args) {
   return IsAscii(...args);
 }
 
-export { vStringAscii as stringAscii, vStringAscii as validatableStringAscii };
+export {
+  vStringAscii as ascii,
+  vStringAscii as stringAscii,
+  vStringAscii as validatableStringAscii,
+};

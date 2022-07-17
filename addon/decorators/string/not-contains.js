@@ -5,6 +5,7 @@ export function vStringNotContains(...args) {
 }
 
 export {
+  vStringNotContains as notContains,
   vStringNotContains as stringNotContains,
   vStringNotContains as validatableStringNotContains,
 };

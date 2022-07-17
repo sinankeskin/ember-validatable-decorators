@@ -5,6 +5,7 @@ export function vStringMimeType(...args) {
 }
 
 export {
+  vStringMimeType as mimeType,
   vStringMimeType as stringMimeType,
   vStringMimeType as validatableStringMimeType,
 };

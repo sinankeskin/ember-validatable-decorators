@@ -4,4 +4,8 @@ export function vStringUUID(...args) {
   return IsUUID(...args);
 }
 
-export { vStringUUID as stringUUID, vStringUUID as validatableStringUUID };
+export {
+  vStringUUID as uuid,
+  vStringUUID as stringUUID,
+  vStringUUID as validatableStringUUID,
+};

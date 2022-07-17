@@ -4,4 +4,4 @@ export function vTypeInt(...args) {
   return IsInt(...args);
 }
 
-export { vTypeInt as typeInt, vTypeInt as validatableTypeInt };
+export { vTypeInt as int, vTypeInt as typeInt, vTypeInt as validatableTypeInt };

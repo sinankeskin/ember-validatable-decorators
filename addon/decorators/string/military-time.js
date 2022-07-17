@@ -5,6 +5,7 @@ export function vStringMilitaryTime(...args) {
 }
 
 export {
+  vStringMilitaryTime as militaryTime,
   vStringMilitaryTime as stringMilitaryTime,
   vStringMilitaryTime as validatableStringMilitaryTime,
 };

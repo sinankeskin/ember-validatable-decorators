@@ -5,6 +5,7 @@ export function vStringSemVer(...args) {
 }
 
 export {
+  vStringSemVer as semVer,
   vStringSemVer as stringSemVer,
   vStringSemVer as validatableStringSemVer,
 };

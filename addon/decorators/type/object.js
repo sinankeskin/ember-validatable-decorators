@@ -4,4 +4,8 @@ export function vTypeObject(...args) {
   return IsObject(...args);
 }
 
-export { vTypeObject as typeObject, vTypeObject as validatableTypeObject };
+export {
+  vTypeObject as object,
+  vTypeObject as typeObject,
+  vTypeObject as validatableTypeObject,
+};

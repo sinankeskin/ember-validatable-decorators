@@ -5,6 +5,6 @@ export function vStringContains(...args) {
 }
 
 export {
-  vStringContains as stringContains,
+  vStringContains as contains,
   vStringContains as validatableStringContains,
 };

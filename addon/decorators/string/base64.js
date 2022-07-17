@@ -5,6 +5,7 @@ export function vStringBase64(...args) {
 }
 
 export {
+  vStringBase64 as base64,
   vStringBase64 as stringBase64,
   vStringBase64 as validatableStringBase64,
 };

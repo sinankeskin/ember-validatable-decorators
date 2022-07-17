@@ -4,4 +4,8 @@ export function vArrayUnique(...args) {
   return ArrayUnique(...args);
 }
 
-export { vArrayUnique as arrayUnique, vArrayUnique as validatableArrayUnique };
+export {
+  vArrayUnique as unique,
+  vArrayUnique as arrayUnique,
+  vArrayUnique as validatableArrayUnique,
+};

@@ -5,6 +5,7 @@ export function vStringLocale(...args) {
 }
 
 export {
+  vStringLocale as locale,
   vStringLocale as stringLocale,
   vStringLocale as validatableStringLocale,
 };

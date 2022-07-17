@@ -5,6 +5,7 @@ export function vNumberDivisibleBy(...args) {
 }
 
 export {
+  vNumberDivisibleBy as divisibleBy,
   vNumberDivisibleBy as numberDivisibleBy,
   vNumberDivisibleBy as validatableNumberDivisibleBy,
 };

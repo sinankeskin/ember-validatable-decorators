@@ -4,4 +4,8 @@ export function vStringPort(...args) {
   return IsPort(...args);
 }
 
-export { vStringPort as stringPort, vStringPort as validatableStringPort };
+export {
+  vStringPort as port,
+  vStringPort as stringPort,
+  vStringPort as validatableStringPort,
+};

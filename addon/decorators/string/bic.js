@@ -4,4 +4,8 @@ export function vStringBIC(...args) {
   return IsBIC(...args);
 }
 
-export { vStringBIC as stringBIC, vStringBIC as validatableStringBIC };
+export {
+  vStringBIC as bic,
+  vStringBIC as stringBIC,
+  vStringBIC as validatableStringBIC,
+};

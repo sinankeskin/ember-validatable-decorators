@@ -4,4 +4,8 @@ export function vStringEmail(...args) {
   return IsEmail(...args);
 }
 
-export { vStringEmail as stringEmail, vStringEmail as validatableStringEmail };
+export {
+  vStringEmail as email,
+  vStringEmail as stringEmail,
+  vStringEmail as validatableStringEmail,
+};

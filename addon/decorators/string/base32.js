@@ -5,6 +5,7 @@ export function vStringBase32(...args) {
 }
 
 export {
+  vStringBase32 as base32,
   vStringBase32 as stringBase32,
   vStringBase32 as validatableStringBase32,
 };

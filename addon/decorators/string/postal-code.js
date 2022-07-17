@@ -5,6 +5,7 @@ export function vStringPostalCode(...args) {
 }
 
 export {
+  vStringPostalCode as postalCode,
   vStringPostalCode as stringPostalCode,
   vStringPostalCode as validatableStringPostalCode,
 };

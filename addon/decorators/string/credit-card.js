@@ -5,6 +5,7 @@ export function vStringCreditCard(...args) {
 }
 
 export {
+  vStringCreditCard as creditCard,
   vStringCreditCard as stringCreditCard,
   vStringCreditCard as validatableStringCreditCard,
 };

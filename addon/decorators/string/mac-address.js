@@ -5,6 +5,7 @@ export function vStringMACAddress(...args) {
 }
 
 export {
+  vStringMACAddress as macAddress,
   vStringMACAddress as stringMACAddress,
   vStringMACAddress as validatableStringMACAddress,
 };

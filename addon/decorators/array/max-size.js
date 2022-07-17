@@ -5,6 +5,7 @@ export function vArrayMaxSize(...args) {
 }
 
 export {
+  vArrayMaxSize as maxSize,
   vArrayMaxSize as arrayMaxSize,
   vArrayMaxSize as validatableArrayMaxSize,
 };

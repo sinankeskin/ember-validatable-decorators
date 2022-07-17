@@ -5,6 +5,7 @@ export function vStringMaxLength(...args) {
 }
 
 export {
+  vStringMaxLength as maxLength,
   vStringMaxLength as stringMaxLength,
   vStringMaxLength as validatableStringMaxLength,
 };

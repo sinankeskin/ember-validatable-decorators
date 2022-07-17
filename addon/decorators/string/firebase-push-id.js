@@ -5,6 +5,7 @@ export function vStringFirebasePushId(...args) {
 }
 
 export {
+  vStringFirebasePushId as firebasePushId,
   vStringFirebasePushId as stringFirebasePushId,
   vStringFirebasePushId as validatableStringFirebasePushId,
 };

@@ -5,6 +5,7 @@ export function vStringHalfWidth(...args) {
 }
 
 export {
+  vStringHalfWidth as halfWidth,
   vStringHalfWidth as stringHalfWidth,
   vStringHalfWidth as validatableStringHalfWidth,
 };

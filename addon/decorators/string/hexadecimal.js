@@ -5,6 +5,7 @@ export function vStringHexadecimal(...args) {
 }
 
 export {
+  vStringHexadecimal as hexadecimal,
   vStringHexadecimal as stringHexadecimal,
   vStringHexadecimal as validatableStringHexadecimal,
 };

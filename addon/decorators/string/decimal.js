@@ -5,6 +5,7 @@ export function vStringDecimal(...args) {
 }
 
 export {
+  vStringDecimal as decimal,
   vStringDecimal as stringDecimal,
   vStringDecimal as validatableStringDecimal,
 };

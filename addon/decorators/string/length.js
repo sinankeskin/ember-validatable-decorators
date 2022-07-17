@@ -5,6 +5,7 @@ export function vStringLength(...args) {
 }
 
 export {
+  vStringLength as length,
   vStringLength as stringLength,
   vStringLength as validatableStringLength,
 };

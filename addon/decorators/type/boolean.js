@@ -4,4 +4,8 @@ export function vTypeBoolean(...args) {
   return IsBoolean(...args);
 }
 
-export { vTypeBoolean as typeBoolean, vTypeBoolean as validatableTypeBoolean };
+export {
+  vTypeBoolean as boolean,
+  vTypeBoolean as typeBoolean,
+  vTypeBoolean as validatableTypeBoolean,
+};

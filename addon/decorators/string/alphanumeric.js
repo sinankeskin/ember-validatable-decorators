@@ -5,6 +5,7 @@ export function vStringAlphanumeric(...args) {
 }
 
 export {
+  vStringAlphanumeric as alphanumeric,
   vStringAlphanumeric as stringAlphanumeric,
   vStringAlphanumeric as validatableStringAlphanumeric,
 };

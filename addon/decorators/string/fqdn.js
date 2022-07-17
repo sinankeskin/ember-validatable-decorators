@@ -4,4 +4,8 @@ export function vStringFQDN(...args) {
   return IsFQDN(...args);
 }
 
-export { vStringFQDN as stringFQDN, vStringFQDN as validatableStringFQDN };
+export {
+  vStringFQDN as fqdn,
+  vStringFQDN as stringFQDN,
+  vStringFQDN as validatableStringFQDN,
+};

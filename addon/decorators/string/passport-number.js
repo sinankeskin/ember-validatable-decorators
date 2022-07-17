@@ -5,6 +5,7 @@ export function vStringPassportNumber(...args) {
 }
 
 export {
+  vStringPassportNumber as passportNumber,
   vStringPassportNumber as stringPassportNumber,
   vStringPassportNumber as validatableStringPassportNumber,
 };

@@ -4,4 +4,8 @@ export function vNumberMin(...args) {
   return Min(...args);
 }
 
-export { vNumberMin as numberMin, vNumberMin as validatableNumberMin };
+export {
+  vNumberMin as min,
+  vNumberMin as numberMin,
+  vNumberMin as validatableNumberMin,
+};

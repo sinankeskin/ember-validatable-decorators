@@ -5,6 +5,7 @@ export function vStringUppercase(...args) {
 }
 
 export {
+  vStringUppercase as uppercase,
   vStringUppercase as stringUppercase,
   vStringUppercase as validatableStringUppercase,
 };

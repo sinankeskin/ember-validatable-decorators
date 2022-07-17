@@ -4,4 +4,8 @@ export function vStringIP(...args) {
   return IsIP(...args);
 }
 
-export { vStringIP as stringIP, vStringIP as validatableStringIP };
+export {
+  vStringIP as ip,
+  vStringIP as stringIP,
+  vStringIP as validatableStringIP,
+};

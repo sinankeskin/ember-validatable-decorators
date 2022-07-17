@@ -5,6 +5,7 @@ export function vStringFullWidth(...args) {
 }
 
 export {
+  vStringFullWidth as fullWidth,
   vStringFullWidth as stringFullWidth,
   vStringFullWidth as validatableStringFullWidth,
 };

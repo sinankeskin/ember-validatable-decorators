@@ -5,6 +5,7 @@ export function vStringMongoId(...args) {
 }
 
 export {
+  vStringMongoId as mongoId,
   vStringMongoId as stringMongoId,
   vStringMongoId as validatableStringMongoId,
 };

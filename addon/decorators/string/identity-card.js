@@ -5,6 +5,7 @@ export function vStringIdentityCard(...args) {
 }
 
 export {
+  vStringIdentityCard as identityCard,
   vStringIdentityCard as stringIdentityCard,
   vStringIdentityCard as validatableStringIdentityCard,
 };

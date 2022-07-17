@@ -4,4 +4,8 @@ export function vNumberMax(...args) {
   return Max(...args);
 }
 
-export { vNumberMax as numberMax, vNumberMax as validatableNumberMax };
+export {
+  vNumberMax as max,
+  vNumberMax as numberMax,
+  vNumberMax as validatableNumberMax,
+};

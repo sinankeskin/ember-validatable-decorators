@@ -5,6 +5,7 @@ export function vStringSurrogatePair(...args) {
 }
 
 export {
+  vStringSurrogatePair as surrogatePair,
   vStringSurrogatePair as stringSurrogatePair,
   vStringSurrogatePair as validatableStringSurrogatePair,
 };

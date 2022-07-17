@@ -5,6 +5,7 @@ export function vStringEthAddress(...args) {
 }
 
 export {
+  vStringEthAddress as ethAddress,
   vStringEthAddress as stringEthAddress,
   vStringEthAddress as validatableStringEthAddress,
 };

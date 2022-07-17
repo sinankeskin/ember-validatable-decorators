@@ -5,6 +5,7 @@ export function vStringVariableWidth(...args) {
 }
 
 export {
+  vStringVariableWidth as variableWidth,
   vStringVariableWidth as stringVariableWidth,
   vStringVariableWidth as validatableStringVariableWidth,
 };

@@ -5,6 +5,7 @@ export function vStringCurrency(...args) {
 }
 
 export {
+  vStringCurrency as currency,
   vStringCurrency as stringCurrency,
   vStringCurrency as validatableStringCurrency,
 };

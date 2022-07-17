@@ -4,4 +4,8 @@ export function vTypeString(...args) {
   return IsString(...args);
 }
 
-export { vTypeString as typeString, vTypeString as validatableTypeString };
+export {
+  vTypeString as string,
+  vTypeString as typeString,
+  vTypeString as validatableTypeString,
+};

@@ -5,6 +5,7 @@ export function vNumberNegative(...args) {
 }
 
 export {
+  vNumberNegative as negative,
   vNumberNegative as numberNegative,
   vNumberNegative as validatableNumberNegative,
 };

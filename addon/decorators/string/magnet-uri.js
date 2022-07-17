@@ -5,6 +5,7 @@ export function vStringMagnetURI(...args) {
 }
 
 export {
+  vStringMagnetURI as magnetURI,
   vStringMagnetURI as stringMagnetURI,
   vStringMagnetURI as validatableStringMagnetURI,
 };

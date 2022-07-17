@@ -5,6 +5,7 @@ export function vStringLowercase(...args) {
 }
 
 export {
+  vStringLowercase as lowercase,
   vStringLowercase as stringLowercase,
   vStringLowercase as validatableStringLowercase,
 };

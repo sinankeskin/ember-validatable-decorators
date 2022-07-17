@@ -5,6 +5,7 @@ export function vStringHexColor(...args) {
 }
 
 export {
+  vStringHexColor as hexColor,
   vStringHexColor as stringHexColor,
   vStringHexColor as validatableStringHexColor,
 };

@@ -5,6 +5,7 @@ export function vStringBtcAddress(...args) {
 }
 
 export {
+  vStringBtcAddress as btcAddress,
   vStringBtcAddress as stringBtcAddress,
   vStringBtcAddress as validatableStringBtcAddress,
 };

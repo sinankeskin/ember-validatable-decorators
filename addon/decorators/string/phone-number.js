@@ -5,6 +5,7 @@ export function vStringPhoneNumber(...args) {
 }
 
 export {
+  vStringPhoneNumber as phoneNumber,
   vStringPhoneNumber as stringPhoneNumber,
   vStringPhoneNumber as validatableStringPhoneNumber,
 };

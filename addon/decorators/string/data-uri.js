@@ -5,6 +5,7 @@ export function vStringDataURI(...args) {
 }
 
 export {
+  vStringDataURI as dataURI,
   vStringDataURI as stringDataURI,
   vStringDataURI as validatableStringDataURI,
 };

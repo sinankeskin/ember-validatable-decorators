@@ -4,4 +4,8 @@ export function vStringHash(...args) {
   return IsHash(...args);
 }
 
-export { vStringHash as stringHash, vStringHash as validatableStringHash };
+export {
+  vStringHash as hash,
+  vStringHash as stringHash,
+  vStringHash as validatableStringHash,
+};

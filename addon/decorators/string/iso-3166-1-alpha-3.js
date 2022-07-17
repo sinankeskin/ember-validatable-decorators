@@ -5,6 +5,7 @@ export function vStringISO31661Alpha3(...args) {
 }
 
 export {
+  vStringISO31661Alpha3 as iso31661Alpha3,
   vStringISO31661Alpha3 as stringISO31661Alpha3,
   vStringISO31661Alpha3 as validatableStringISO31661Alpha3,
 };

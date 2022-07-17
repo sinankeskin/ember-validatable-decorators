@@ -4,4 +4,8 @@ export function vStringAlpha(...args) {
   return IsAlpha(...args);
 }
 
-export { vStringAlpha as stringAlpha, vStringAlpha as validatableStringAlpha };
+export {
+  vStringAlpha as alpha,
+  vStringAlpha as stringAlpha,
+  vStringAlpha as validatableStringAlpha,
+};

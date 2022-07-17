@@ -5,6 +5,7 @@ export function vStringByteLength(...args) {
 }
 
 export {
+  vStringByteLength as byteLength,
   vStringByteLength as stringByteLength,
   vStringByteLength as validatableStringByteLength,
 };

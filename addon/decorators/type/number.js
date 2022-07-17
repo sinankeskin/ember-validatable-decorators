@@ -4,4 +4,8 @@ export function vTypeNumber(...args) {
   return IsNumber(...args);
 }
 
-export { vTypeNumber as typeNumber, vTypeNumber as validatableTypeNumber };
+export {
+  vTypeNumber as number,
+  vTypeNumber as typeNumber,
+  vTypeNumber as validatableTypeNumber,
+};

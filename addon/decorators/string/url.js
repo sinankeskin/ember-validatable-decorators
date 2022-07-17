@@ -4,4 +4,8 @@ export function vStringURL(...args) {
   return IsUrl(...args);
 }
 
-export { vStringURL as stringURL, vStringURL as validatableStringURL };
+export {
+  vStringURL as url,
+  vStringURL as stringURL,
+  vStringURL as validatableStringURL,
+};

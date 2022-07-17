@@ -5,6 +5,7 @@ export function vStringMultibyte(...args) {
 }
 
 export {
+  vStringMultibyte as multibyte,
   vStringMultibyte as stringMultibyte,
   vStringMultibyte as validatableStringMultibyte,
 };
