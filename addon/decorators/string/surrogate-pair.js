@@ -1,7 +1,7 @@
 import { IsSurrogatePair } from 'class-validator';
 
-export function vStringSurrogatePair(validationOptions) {
-  return IsSurrogatePair(validationOptions);
+export function vStringSurrogatePair(...args) {
+  return IsSurrogatePair(...args);
 }
 
 export {

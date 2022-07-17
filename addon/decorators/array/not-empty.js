@@ -1,7 +1,7 @@
 import { ArrayNotEmpty } from 'class-validator';
 
-export function vArrayNotEmpty(validationOptions) {
-  return ArrayNotEmpty(validationOptions);
+export function vArrayNotEmpty(...args) {
+  return ArrayNotEmpty(...args);
 }
 
 export {

@@ -1,7 +1,7 @@
 import { IsNotIn } from 'class-validator';
 
-export function vNotIn(values, validationOptions) {
-  return IsNotIn(values, validationOptions);
+export function vNotIn(...args) {
+  return IsNotIn(...args);
 }
 
 export { vNotIn as notIn, vNotIn as validatableNotIn };

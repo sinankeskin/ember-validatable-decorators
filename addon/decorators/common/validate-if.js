@@ -1,7 +1,7 @@
 import { ValidateIf } from 'class-validator';
 
-export function vValidateIf(condition, validationOptions) {
-  return ValidateIf(condition, validationOptions);
+export function vValidateIf(...args) {
+  return ValidateIf(...args);
 }
 
 export { vValidateIf as validateIf, vValidateIf as validatableValidateIf };

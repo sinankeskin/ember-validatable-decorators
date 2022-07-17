@@ -1,7 +1,7 @@
 import { IsCurrency } from 'class-validator';
 
-export function vStringCurrency(options, validationOptions) {
-  return IsCurrency(options, validationOptions);
+export function vStringCurrency(...args) {
+  return IsCurrency(...args);
 }
 
 export {

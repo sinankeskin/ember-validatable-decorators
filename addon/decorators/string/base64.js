@@ -1,7 +1,7 @@
 import { IsBase64 } from 'class-validator';
 
-export function vStringBase64(validationOptions) {
-  return IsBase64(validationOptions);
+export function vStringBase64(...args) {
+  return IsBase64(...args);
 }
 
 export {

@@ -1,7 +1,7 @@
 import { IsBooleanString } from 'class-validator';
 
-export function vStringBoolean(validationOptions) {
-  return IsBooleanString(validationOptions);
+export function vStringBoolean(...args) {
+  return IsBooleanString(...args);
 }
 
 export {

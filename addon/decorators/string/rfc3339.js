@@ -1,7 +1,7 @@
 import { IsRFC3339 } from 'class-validator';
 
-export function vStringRFC3339(validationOptions) {
-  return IsRFC3339(validationOptions);
+export function vStringRFC3339(...args) {
+  return IsRFC3339(...args);
 }
 
 export {

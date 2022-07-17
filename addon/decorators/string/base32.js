@@ -1,7 +1,7 @@
 import { IsBase32 } from 'class-validator';
 
-export function vStringBase32(validationOptions) {
-  return IsBase32(validationOptions);
+export function vStringBase32(...args) {
+  return IsBase32(...args);
 }
 
 export {

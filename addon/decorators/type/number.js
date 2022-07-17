@@ -1,7 +1,7 @@
 import { IsNumber } from 'class-validator';
 
-export function vTypeNumber(options, validationOptions) {
-  return IsNumber(options, validationOptions);
+export function vTypeNumber(...args) {
+  return IsNumber(...args);
 }
 
 export { vTypeNumber as typeNumber, vTypeNumber as validatableTypeNumber };

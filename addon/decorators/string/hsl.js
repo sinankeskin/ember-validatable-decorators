@@ -1,7 +1,7 @@
 import { IsHSL } from 'class-validator';
 
-export function vStringHSL(validationOptions) {
-  return IsHSL(validationOptions);
+export function vStringHSL(...args) {
+  return IsHSL(...args);
 }
 
 export { vStringHSL as stringHSL, vStringHSL as validatableStringHSL };

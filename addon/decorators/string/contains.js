@@ -1,7 +1,7 @@
 import { Contains } from 'class-validator';
 
-export function vStringContains(seed, validationOptions) {
-  return Contains(seed, validationOptions);
+export function vStringContains(...args) {
+  return Contains(...args);
 }
 
 export {

@@ -1,7 +1,7 @@
 import { ArrayContains } from 'class-validator';
 
-export function vArrayContains(values, validationOptions) {
-  return ArrayContains(values, validationOptions);
+export function vArrayContains(...args) {
+  return ArrayContains(...args);
 }
 
 export {

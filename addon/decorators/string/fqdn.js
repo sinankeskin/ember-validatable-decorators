@@ -1,7 +1,7 @@
 import { IsFQDN } from 'class-validator';
 
-export function vStringFQDN(options, validationOptions) {
-  return IsFQDN(options, validationOptions);
+export function vStringFQDN(...args) {
+  return IsFQDN(...args);
 }
 
 export { vStringFQDN as stringFQDN, vStringFQDN as validatableStringFQDN };

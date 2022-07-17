@@ -1,7 +1,7 @@
 import { IsNotEmptyObject } from 'class-validator';
 
-export function vObjectNotEmpty(options, validationOptions) {
-  return IsNotEmptyObject(options, validationOptions);
+export function vObjectNotEmpty(...args) {
+  return IsNotEmptyObject(...args);
 }
 
 export {

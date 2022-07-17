@@ -1,7 +1,7 @@
 import { IsPassportNumber } from 'class-validator';
 
-export function vStringPassportNumber(countryCode, validationOptions) {
-  return IsPassportNumber(countryCode, validationOptions);
+export function vStringPassportNumber(...args) {
+  return IsPassportNumber(...args);
 }
 
 export {

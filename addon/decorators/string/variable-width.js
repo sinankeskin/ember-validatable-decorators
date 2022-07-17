@@ -1,7 +1,7 @@
 import { IsVariableWidth } from 'class-validator';
 
-export function vStringVariableWidth(validationOptions) {
-  return IsVariableWidth(validationOptions);
+export function vStringVariableWidth(...args) {
+  return IsVariableWidth(...args);
 }
 
 export {

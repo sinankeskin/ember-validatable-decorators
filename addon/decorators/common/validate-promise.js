@@ -1,7 +1,7 @@
 import { ValidatePromise } from 'class-validator';
 
-export function vValidatePromise(validationOptions) {
-  return ValidatePromise(validationOptions);
+export function vValidatePromise(...args) {
+  return ValidatePromise(...args);
 }
 
 export {

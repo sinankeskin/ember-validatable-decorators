@@ -1,7 +1,7 @@
 import { IsUrl } from 'class-validator';
 
-export function vStringURL(options, validationOptions) {
-  return IsUrl(options, validationOptions);
+export function vStringURL(...args) {
+  return IsUrl(...args);
 }
 
 export { vStringURL as stringURL, vStringURL as validatableStringURL };

@@ -1,7 +1,7 @@
 import { IsDataURI } from 'class-validator';
 
-export function vStringDataURI(validationOptions) {
-  return IsDataURI(validationOptions);
+export function vStringDataURI(...args) {
+  return IsDataURI(...args);
 }
 
 export {

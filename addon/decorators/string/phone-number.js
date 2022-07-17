@@ -1,7 +1,7 @@
 import { IsPhoneNumber } from 'class-validator';
 
-export function vStringPhoneNumber(region, validationOptions) {
-  return IsPhoneNumber(region, validationOptions);
+export function vStringPhoneNumber(...args) {
+  return IsPhoneNumber(...args);
 }
 
 export {

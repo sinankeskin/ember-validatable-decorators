@@ -1,7 +1,7 @@
 import { IsUUID } from 'class-validator';
 
-export function vStringUUID(version, validationOptions) {
-  return IsUUID(version, validationOptions);
+export function vStringUUID(...args) {
+  return IsUUID(...args);
 }
 
 export { vStringUUID as stringUUID, vStringUUID as validatableStringUUID };

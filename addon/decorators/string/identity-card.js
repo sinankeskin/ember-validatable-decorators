@@ -1,7 +1,7 @@
 import { IsIdentityCard } from 'class-validator';
 
-export function vStringIdentityCard(locale, validationOptions) {
-  return IsIdentityCard(locale, validationOptions);
+export function vStringIdentityCard(...args) {
+  return IsIdentityCard(...args);
 }
 
 export {

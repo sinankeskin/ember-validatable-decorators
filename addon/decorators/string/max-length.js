@@ -1,7 +1,7 @@
 import { MaxLength } from 'class-validator';
 
-export function vStringMaxLength(max, validationOptions) {
-  return MaxLength(max, validationOptions);
+export function vStringMaxLength(...args) {
+  return MaxLength(...args);
 }
 
 export {

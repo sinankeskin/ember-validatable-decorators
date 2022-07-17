@@ -1,7 +1,7 @@
 import { IsPositive } from 'class-validator';
 
-export function vNumberPositive(number, validationOptions) {
-  return IsPositive(validationOptions);
+export function vNumberPositive(...args) {
+  return IsPositive(...args);
 }
 
 export {

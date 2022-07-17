@@ -1,7 +1,7 @@
 import { ArrayMinSize } from 'class-validator';
 
-export function vArrayMinSize(min, validationOptions) {
-  return ArrayMinSize(min, validationOptions);
+export function vArrayMinSize(...args) {
+  return ArrayMinSize(...args);
 }
 
 export {

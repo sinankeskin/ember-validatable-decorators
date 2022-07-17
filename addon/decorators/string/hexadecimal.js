@@ -1,7 +1,7 @@
 import { IsHexadecimal } from 'class-validator';
 
-export function vStringHexadecimal(validationOptions) {
-  return IsHexadecimal(validationOptions);
+export function vStringHexadecimal(...args) {
+  return IsHexadecimal(...args);
 }
 
 export {

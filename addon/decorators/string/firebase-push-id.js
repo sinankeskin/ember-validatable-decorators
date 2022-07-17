@@ -1,7 +1,7 @@
 import { IsFirebasePushId } from 'class-validator';
 
-export function vStringFirebasePushId(validationOptions) {
-  return IsFirebasePushId(validationOptions);
+export function vStringFirebasePushId(...args) {
+  return IsFirebasePushId(...args);
 }
 
 export {

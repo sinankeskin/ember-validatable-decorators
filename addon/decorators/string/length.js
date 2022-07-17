@@ -1,7 +1,7 @@
 import { Length } from 'class-validator';
 
-export function vStringLength(min, max, validationOptions) {
-  return Length(min, max, validationOptions);
+export function vStringLength(...args) {
+  return Length(...args);
 }
 
 export {

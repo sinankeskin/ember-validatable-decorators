@@ -1,7 +1,7 @@
 import { IsPostalCode } from 'class-validator';
 
-export function vStringPostalCode(locale, validationOptions) {
-  return IsPostalCode(locale, validationOptions);
+export function vStringPostalCode(...args) {
+  return IsPostalCode(...args);
 }
 
 export {

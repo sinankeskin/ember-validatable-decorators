@@ -1,7 +1,7 @@
 import { IsBtcAddress } from 'class-validator';
 
-export function vStringBtcAddress(validationOptions) {
-  return IsBtcAddress(validationOptions);
+export function vStringBtcAddress(...args) {
+  return IsBtcAddress(...args);
 }
 
 export {

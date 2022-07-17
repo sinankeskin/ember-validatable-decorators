@@ -1,7 +1,7 @@
 import { IsLowercase } from 'class-validator';
 
-export function vStringLowercase(validationOptions) {
-  return IsLowercase(validationOptions);
+export function vStringLowercase(...args) {
+  return IsLowercase(...args);
 }
 
 export {

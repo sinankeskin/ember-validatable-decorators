@@ -1,7 +1,7 @@
 import { NotContains } from 'class-validator';
 
-export function vStringNotContains(seed, validationOptions) {
-  return NotContains(seed, validationOptions);
+export function vStringNotContains(...args) {
+  return NotContains(...args);
 }
 
 export {

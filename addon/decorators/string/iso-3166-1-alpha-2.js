@@ -1,7 +1,7 @@
 import { IsISO31661Alpha2 } from 'class-validator';
 
-export function vStringISO31661Alpha2(validationOptions) {
-  return IsISO31661Alpha2(validationOptions);
+export function vStringISO31661Alpha2(...args) {
+  return IsISO31661Alpha2(...args);
 }
 
 export {

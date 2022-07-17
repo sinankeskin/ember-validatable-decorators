@@ -1,7 +1,7 @@
 import { IsMilitaryTime } from 'class-validator';
 
-export function vStringMilitaryTime(validationOptions) {
-  return IsMilitaryTime(validationOptions);
+export function vStringMilitaryTime(...args) {
+  return IsMilitaryTime(...args);
 }
 
 export {

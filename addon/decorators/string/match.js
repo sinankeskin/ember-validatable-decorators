@@ -1,7 +1,7 @@
 import { Matches } from 'class-validator';
 
-export function vStringMatch(pattern, validationOptions) {
-  return Matches(pattern, validationOptions);
+export function vStringMatch(...args) {
+  return Matches(...args);
 }
 
 export { vStringMatch as stringMatch, vStringMatch as validatableStringMatch };

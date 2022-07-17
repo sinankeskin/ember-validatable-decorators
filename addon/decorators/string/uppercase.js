@@ -1,7 +1,7 @@
 import { IsUppercase } from 'class-validator';
 
-export function vStringUppercase(validationOptions) {
-  return IsUppercase(validationOptions);
+export function vStringUppercase(...args) {
+  return IsUppercase(...args);
 }
 
 export {

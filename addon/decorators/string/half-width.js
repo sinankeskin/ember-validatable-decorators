@@ -1,7 +1,7 @@
 import { IsHalfWidth } from 'class-validator';
 
-export function vStringHalfWidth(validationOptions) {
-  return IsHalfWidth(validationOptions);
+export function vStringHalfWidth(...args) {
+  return IsHalfWidth(...args);
 }
 
 export {

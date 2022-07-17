@@ -1,7 +1,7 @@
 import { IsMimeType } from 'class-validator';
 
-export function vStringMimeType(validationOptions) {
-  return IsMimeType(validationOptions);
+export function vStringMimeType(...args) {
+  return IsMimeType(...args);
 }
 
 export {

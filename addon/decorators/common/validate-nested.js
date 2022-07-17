@@ -1,7 +1,7 @@
 import { ValidateNested } from 'class-validator';
 
-export function vValidateNested(validationOptions) {
-  return ValidateNested(validationOptions);
+export function vValidateNested(...args) {
+  return ValidateNested(...args);
 }
 
 export {

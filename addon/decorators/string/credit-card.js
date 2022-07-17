@@ -1,7 +1,7 @@
 import { IsCreditCard } from 'class-validator';
 
-export function vStringCreditCard(validationOptions) {
-  return IsCreditCard(validationOptions);
+export function vStringCreditCard(...args) {
+  return IsCreditCard(...args);
 }
 
 export {

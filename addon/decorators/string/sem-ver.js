@@ -1,7 +1,7 @@
 import { IsSemVer } from 'class-validator';
 
-export function vStringSemVer(validationOptions) {
-  return IsSemVer(validationOptions);
+export function vStringSemVer(...args) {
+  return IsSemVer(...args);
 }
 
 export {

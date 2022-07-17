@@ -1,7 +1,7 @@
 import { IsLocale } from 'class-validator';
 
-export function vStringLocale(validationOptions) {
-  return IsLocale(validationOptions);
+export function vStringLocale(...args) {
+  return IsLocale(...args);
 }
 
 export {

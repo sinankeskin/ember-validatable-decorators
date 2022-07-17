@@ -1,7 +1,7 @@
 import { IsDecimal } from 'class-validator';
 
-export function vStringDecimal(options, validationOptions) {
-  return IsDecimal(options, validationOptions);
+export function vStringDecimal(...args) {
+  return IsDecimal(...args);
 }
 
 export {

@@ -1,7 +1,7 @@
 import { IsMagnetURI } from 'class-validator';
 
-export function vStringMagnetURI(validationOptions) {
-  return IsMagnetURI(validationOptions);
+export function vStringMagnetURI(...args) {
+  return IsMagnetURI(...args);
 }
 
 export {

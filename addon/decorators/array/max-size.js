@@ -1,7 +1,7 @@
 import { ArrayMaxSize } from 'class-validator';
 
-export function vArrayMaxSize(max, validationOptions) {
-  return ArrayMaxSize(max, validationOptions);
+export function vArrayMaxSize(...args) {
+  return ArrayMaxSize(...args);
 }
 
 export {

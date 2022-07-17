@@ -1,7 +1,7 @@
 import { IsHexColor } from 'class-validator';
 
-export function vStringHexColor(validationOptions) {
-  return IsHexColor(validationOptions);
+export function vStringHexColor(...args) {
+  return IsHexColor(...args);
 }
 
 export {

@@ -1,7 +1,7 @@
 import { Min } from 'class-validator';
 
-export function vNumberMin(value, validationOptions) {
-  return Min(value, validationOptions);
+export function vNumberMin(...args) {
+  return Min(...args);
 }
 
 export { vNumberMin as numberMin, vNumberMin as validatableNumberMin };

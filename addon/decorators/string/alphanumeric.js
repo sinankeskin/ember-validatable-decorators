@@ -1,7 +1,7 @@
 import { IsAlphanumeric } from 'class-validator';
 
-export function vStringAlphanumeric(locale, validationOptions) {
-  return IsAlphanumeric(locale, validationOptions);
+export function vStringAlphanumeric(...args) {
+  return IsAlphanumeric(...args);
 }
 
 export {

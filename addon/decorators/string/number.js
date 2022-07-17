@@ -1,7 +1,7 @@
 import { IsNumberString } from 'class-validator';
 
-export function vStringNumber(options, validationOptions) {
-  return IsNumberString(options, validationOptions);
+export function vStringNumber(...args) {
+  return IsNumberString(...args);
 }
 
 export {
