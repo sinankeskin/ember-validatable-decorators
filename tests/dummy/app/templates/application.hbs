@@ -1,5 +1,25 @@
-{{page-title "Dummy"}}
+{{page-title 'Validatable'}}
+{{concat 'isValidated:' this.model.isValidated}}
+{{#if this.model.isValid}}
+  <p>Valid</p>
+{{else}}
+  <p>Invalid</p>
+{{/if}}
+{{#each this.model.errors as |error|}}
+  <div class='error'>
+    {{error.message}}
+  </div>
+{{/each}}
 
-<h2 id="title">Welcome to Ember</h2>
+<hr />
 
+{{#each this.model.errors.rating as |error|}}
+  <div class='error'>
+    {{error.message}}
+    <br />
+  </div>
+{{/each}}
+<button type='button' {{on 'click' this.validate}}>
+  Validate
+</button>
 {{outlet}}
