@@ -1,7 +1,7 @@
 import { Max } from 'class-validator';
 
-export function vMax(value, validationOptions) {
+export function vNumberMax(value, validationOptions) {
   return Max(value, validationOptions);
 }
 
-export { vMax as max, vMax as validatableMax };
+export { vNumberMax as numberMax, vNumberMax as validatableNumberMax };

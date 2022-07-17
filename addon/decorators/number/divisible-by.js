@@ -1,7 +1,10 @@
 import { IsDivisibleBy } from 'class-validator';
 
-export function vDivisibleBy(number, validationOptions) {
+export function vNumberDivisibleBy(number, validationOptions) {
   return IsDivisibleBy(number, validationOptions);
 }
 
-export { vDivisibleBy as divisibleBy, vDivisibleBy as validatableDivisibleBy };
+export {
+  vNumberDivisibleBy as numberDivisibleBy,
+  vNumberDivisibleBy as validatableNumberDivisibleBy,
+};
