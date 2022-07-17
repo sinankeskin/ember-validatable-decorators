@@ -1,10 +1,20 @@
+/* eslint-disable ember/use-ember-data-rfc-395-imports */
 import { resolve, reject } from 'rsvp';
 import { tracked } from '@glimmer/tracking';
+import DS from 'ember-data';
 import { validate, validateOrReject, validateSync } from 'class-validator';
 
-function validatable(Class) {
+export function validatable(Class) {
   return class ValidatableClass extends Class {
     @tracked isValidated = false;
+
+    constructor() {
+      super(...arguments);
+
+      if (!('errors' in this)) {
+        this.errors = DS.Errors.create();
+      }
+    }
 
     get isValid() {
       return this.errors.length === 0;
@@ -46,5 +56,3 @@ function validatable(Class) {
     }
   };
 }
-
-export default validatable;
