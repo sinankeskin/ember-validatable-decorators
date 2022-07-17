@@ -1,13 +1,17 @@
 {
   "name": "ember-validatable-decorators",
   "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Decorators for quick and easy validation for both ember data models and POJOs.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "validation",
+    "validatable",
+    "decorators",
+    "ember-validatable-decorators"
   ],
-  "repository": "",
+  "repository": "https://github.com/sinankeskin/ember-validatable-decorators",
   "license": "MIT",
-  "author": "",
+  "author": "Sinan Keskin <sinan@kesk.in> (https://kesk.in)",
   "directories": {
     "doc": "doc",
     "test": "tests"
