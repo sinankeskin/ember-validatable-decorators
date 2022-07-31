@@ -1,6 +1,6 @@
 {
   "name": "ember-validatable-decorators",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Decorators for quick and easy validation for both ember data models and POJOs.",
   "keywords": [
     "ember-addon",
@@ -24,6 +24,7 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
+    "deploy": "npm version patch && git push && git push origin --tags && npm publish",
     "start": "ember serve",
     "test": "npm-run-all lint test:*",
     "test:ember": "ember test",
